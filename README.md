@@ -5,4 +5,4 @@ when you click the button it will increase the counter and change the color of b
 
 ## Demo
 
-<img src="counter-app.gif" width="200">
+<img src="counter-app.gif" width="400">
