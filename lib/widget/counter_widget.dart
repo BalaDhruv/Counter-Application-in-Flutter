@@ -44,14 +44,13 @@ class _CounterWidgetState extends State<CounterWidget> {
               ),
               color: color,
               child: Text(
-                'Add 1',
+                'Click to Add',
                 style: TextStyle(
                   fontWeight: FontWeight.w600,
                   color: Colors.white,
                 ),
               ),
               onPressed: () {
-                print('cliked');
                 setState(() {
                   count++;
                   color = CounterTheme.colorsList[Random().nextInt(5)];
