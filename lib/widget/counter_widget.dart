@@ -9,8 +9,9 @@ class CounterWidget extends StatefulWidget {
 }
 
 class _CounterWidgetState extends State<CounterWidget> {
-  int count = 100;
-  Color color = CounterTheme.colorColumbiaBlue;
+  // setting Initial Count Value and Color
+  int count = 0;
+  Color color = CounterTheme.primaryColor;
 
   @override
   Widget build(BuildContext context) {
