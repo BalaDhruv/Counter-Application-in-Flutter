@@ -32,7 +32,6 @@ class _CounterWidgetState extends State<CounterWidget> {
     super.dispose();
   }
 
-
   @override
   Widget build(BuildContext context) {
     return CounterBlocProvider(
