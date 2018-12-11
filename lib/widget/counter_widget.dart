@@ -1,6 +1,6 @@
 import 'package:counter_app_flutter/bloc/counter_bloc.dart';
 import 'package:counter_app_flutter/bloc/counter_bloc_provider.dart';
-import 'package:counter_app_flutter/model/counter_bloc_theme.dart';
+import 'package:counter_app_flutter/model/counter.dart';
 import 'package:counter_app_flutter/theme.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -11,9 +11,6 @@ class CounterWidget extends StatefulWidget {
 }
 
 class _CounterWidgetState extends State<CounterWidget> {
-  // setting Initial Count Value and Color
-  int count = 0;
-  Color color = CounterTheme.primaryColor;
 
   CounterBloc bloc;
   var myCounter ;
@@ -83,10 +80,6 @@ class _CounterWidgetState extends State<CounterWidget> {
                     onPressed: () {
                       myCounter.updateCounterTheme();
                       bloc.onAdd(myCounter);
-                      // setState(() {
-                      //   count++;
-                      //   color = CounterTheme.colorsList[Random().nextInt(5)];
-                      // });
                     },
                   ),
                 ],

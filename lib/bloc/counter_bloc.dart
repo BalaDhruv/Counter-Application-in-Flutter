@@ -1,5 +1,5 @@
 import 'dart:async';
-import 'package:counter_app_flutter/model/counter_bloc_theme.dart';
+import 'package:counter_app_flutter/model/counter.dart';
 
 class CounterBloc {
   final CounterBlocTheme theme;
